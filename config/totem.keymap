@@ -84,10 +84,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp APOS  &kp COMMA  &kp DOT   &kp P      &kp Y        &kp F        &kp G      &kp C     &kp R  &kp L
-           &kp A     &kp O      &kp E     &kp U      &kp I        &kp D        &kp H      &kp T     &kp N  &kp S
-&kp LSHFT  &kp Q     &kp J      &kp K     &kp K      &kp X        &kp B        &kp M      &kp W     &kp V  &kp Z  &kp RSHFT
-                                &kp LALT  &kp SPACE  &lt 1 TAB    &lt 1 ENTER  &lt 0 ESC  &kp BSPC
+           &kp APOS  &kp COMMA  &kp DOT   &kp P        &kp Y        &kp F        &kp G      &kp C     &kp R  &kp L
+           &kp A     &kp O      &kp E     &kp U        &kp I        &kp D        &kp H      &kp T     &kp N  &kp S
+&kp LSHFT  &kp Q     &kp J      &kp K     &kp K        &kp X        &kp B        &kp M      &kp W     &kp V  &kp Z  &kp RSHFT
+                                &kp LALT  &lt 1 SPACE  &lt 2 TAB    &lt 2 ENTER  &lt 1 ESC  &kp BSPC
             >;
         };
 
@@ -97,6 +97,15 @@
                 &kp BSLH     &kp FSLH    &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp ASTERISK    &kp QUESTION     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS  &kp COLON
 &bt BT_CLR_ALL  &kp POUND    &kp DOLLAR  &kp PIPE        &kp MINUS        &kp GRAVE       &kp PLUS         &kp PERCENT           &kp DOUBLE_QUOTES      &kp SQT    &kp SEMI       &bt BT_NXT
                                          &trans          &trans           &trans          &trans           &trans                &trans
+            >;
+        };
+
+        nav-and-numblock {
+            bindings = <
+        &trans  &trans    &kp UP    &trans     &trans    &trans  &kp N7  &kp N8  &kp N9  &trans
+        &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans    &trans  &kp N4  &kp N5  &kp N6  &trans
+&trans  &trans  &trans    &trans    &trans     &trans    &trans  &kp N1  &kp N2  &kp N3  &trans  &trans
+                          &trans    &trans     &trans    &trans  &trans  &trans
             >;
         };
 
