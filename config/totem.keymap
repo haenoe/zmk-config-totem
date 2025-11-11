@@ -78,7 +78,7 @@
                 &kp AT_SIGN  &kp UNDER   &kp LBKT        &kp RBKT         &kp CARET       &kp EXCLAMATION  &kp LESS_THAN         &kp GREATER_THAN       &kp EQUAL  &kp AMPERSAND
                 &kp BSLH     &kp FSLH    &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp ASTERISK    &kp QUESTION     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS  &kp COLON
 &bt BT_CLR_ALL  &kp POUND    &kp DOLLAR  &kp PIPE        &kp MINUS        &kp GRAVE       &kp PLUS         &kp PERCENT           &kp DOUBLE_QUOTES      &kp SQT    &kp SEMI       &bt BT_NXT
-                                         &trans          &trans           &trans          &trans           &trans                &trans
+                                         &kp LSHIFT      &kp SPACE        &kp ESC         &kp ENTER        &kp BACKSPACE         &kp RIGHT_SHIFT
             >;
         };
 
