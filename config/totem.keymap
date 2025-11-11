@@ -67,10 +67,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-         &kp APOS  &kp COMMA  &kp DOT     &kp P        &kp Y           &kp F        &kp G          &kp C       &kp R  &kp L
-         &kp A     &kp O      &mt LALT E  &mt LCTRL U  &kp I           &kp D        &mt RCTRL H    &mt RALT T  &kp N  &kp S
-&kp TAB  &kp Q     &kp J      &kp K       &kp K        &kp X           &kp B        &kp M          &kp W       &kp V  &kp Z  &caps_word
-                              &kp LSHIFT  &kp SPACE    &lt 1 ESCAPE    &lt 1 ENTER  &kp BACKSPACE  &kp RSHIFT
+                &kp DE_U_UMLAUT  &kp DE_O_UMLAUT  &kp DE_A_UMLAUT     &kp P             &kp Y           &kp F        &kp G              &kp C       &kp R       &kp L
+                &kp A            &mt LEFT_ALT O   &mt LEFT_CONTROL E  &mt LEFT_SHIFT U  &kp I           &kp D        &mt RIGHT_SHIFT H  &mt RALT T  &mt RALT N  &kp S
+&kp DE_SHARP_S  &kp Q            &kp J            &kp K               &kp K             &kp X           &kp B        &kp M              &kp W       &kp V       &kp Z  &caps_word
+                                                  &kp TAB             &kp SPACE         &lt 1 ESCAPE    &lt 1 ENTER  &kp BACKSPACE      &kp DELETE
             >;
         };
 
