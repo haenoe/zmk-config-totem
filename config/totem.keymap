@@ -66,26 +66,26 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                &kp DE_U_UMLAUT  &kp DE_O_UMLAUT  &kp DE_A_UMLAUT     &kp P             &kp Y           &kp F        &kp G              &kp C       &kp R       &kp L
-                &kp A            &mt LEFT_ALT O   &mt LEFT_CONTROL E  &mt LEFT_SHIFT U  &kp I           &kp D        &mt RIGHT_SHIFT H  &mt RALT T  &mt RALT N  &kp S
-&kp DE_SHARP_S  &kp Q            &kp J            &kp K               &kp K             &kp X           &kp B        &kp M              &kp W       &kp V       &kp Z  &caps_word
-                                                  &kp TAB             &kp SPACE         &lt 1 ESCAPE    &lt 1 ENTER  &kp BACKSPACE      &kp DELETE
+                 &kp DE_A_UMLAUT  &kp COMMA          &kp DOT                &kp P             &kp Y           &kp DE_F     &kp DE_G              &kp DE_C       &kp DE_R       &kp DE_L
+                 &kp DE_A         &mt LEFT_ALT DE_O  &mt LEFT_CONTROL DE_E  &mt LEFT_SHIFT U  &kp I           &kp DE_D     &mt RIGHT_SHIFT DE_H  &mt RALT DE_T  &mt RALT DE_N  &kp DE_S
+&kp DE_U_UMLAUT  &kp DE_SHARP_S   &kp DE_Q           &kp DE_J               &kp DE_K          &kp DE_X        &kp DE_B     &kp DE_M              &kp DE_W       &kp DE_V       &kp DE_Z  &kp DE_O_UMLAUT
+                                                     &kp TAB                &kp SPACE         &lt 1 ESCAPE    &lt 1 ENTER  &kp BACKSPACE         &kp DELETE
             >;
         };
 
         symbols {
             bindings = <
-           &kp AT_SIGN  &kp UNDER   &kp LBKT        &kp RBKT         &kp CARET       &kp EXCLAMATION  &kp LESS_THAN            &kp GREATER_THAN          &kp EQUAL  &kp AMPERSAND
-           &kp BSLH     &kp FSLH    &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp ASTERISK    &kp QUESTION     &kp DE_LEFT_PARENTHESIS  &kp DE_RIGHT_PARENTHESIS  &kp MINUS  &kp COLON
-&kp COMMA  &kp POUND    &kp DOLLAR  &kp PIPE        &kp MINUS        &kp GRAVE       &kp PLUS         &kp PERCENT              &kp DOUBLE_QUOTES         &kp SQT    &kp SEMI       &kp DOT
-                                    &kp LSHIFT      &kp SPACE        &kp ESC         &kp ENTER        &kp BACKSPACE            &kp RIGHT_SHIFT
+              &kp DE_AT_SIGN    &kp DE_UNDERSCORE  &kp DE_LEFT_BRACKET  &kp DE_RIGHT_BRACKET  &kp DE_CARET       &kp DE_EXCLAMATION  &kp DE_LESS_THAN         &kp DE_GREATER_THAN       &kp DE_EQUAL       &kp DE_AMPERSAND
+              &kp DE_BACKSLASH  &kp DE_FSLH        &kp DE_LEFT_BRACE    &kp DE_RIGHT_BRACE    &kp DE_ASTERISK    &kp DE_QUESTION     &kp DE_LEFT_PARENTHESIS  &kp DE_RIGHT_PARENTHESIS  &kp DE_MINUS       &kp DE_COLON
+&kp DE_COMMA  &kp DE_HASH       &kp DE_DOLLAR      &kp DE_PIPE          &kp DE_MINUS          &kp DE_TILDE       &kp DE_PLUS         &kp DE_PERCENT           &kp DE_DOUBLE_QUOTES      &kp DE_APOSTROPHE  &kp DE_SEMICOLON  &kp DE_PERIOD
+                                                   &kp LSHIFT           &kp SPACE             &kp ESC            &kp ENTER           &kp BACKSPACE            &kp RIGHT_SHIFT
             >;
         };
 
         nav-and-numblock {
             bindings = <
         &trans  &trans    &kp UP    &trans     &trans    &trans  &kp N7  &kp N8  &kp N9  &trans
-        &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans    &trans  &kp N4  &kp N5  &kp N6  &trans
+        &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans    &kp N0  &kp N4  &kp N5  &kp N6  &trans
 &trans  &trans  &trans    &trans    &trans     &trans    &trans  &kp N1  &kp N2  &kp N3  &trans  &trans
                           &trans    &trans     &trans    &trans  &trans  &trans
             >;
