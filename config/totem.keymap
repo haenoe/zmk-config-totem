@@ -34,14 +34,14 @@
     combos {
         compatible = "zmk,combos";
 
-        activate-mouse {
-            bindings = <&mo 3>;
+        activate-arrow-keys {
+            bindings = <&mo 2>;
             key-positions = <13 12 11>;
             layers = <0>;
         };
 
-        activate-bluetooth {
-            bindings = <&mo 3>;
+        activate-numpad {
+            bindings = <&mo 2>;
             key-positions = <16 17 18>;
         };
     };
@@ -71,7 +71,7 @@
                  &kp DE_A_UMLAUT    &kp COMMA           &kp DOT                &kp P             &kp DE_Z        &kp DE_F     &kp DE_G              &kp DE_C       &kp DE_R             &kp DE_L
                  &mt LEFT_ALT DE_A  &mt LEFT_META DE_O  &mt LEFT_CONTROL DE_E  &mt LEFT_SHIFT U  &kp I           &kp DE_D     &mt RIGHT_SHIFT DE_H  &mt RALT DE_T  &mt RIGHT_META DE_N  &mt RIGHT_ALT DE_S
 &kp DE_U_UMLAUT  &kp DE_SHARP_S     &kp DE_Q            &kp DE_J               &kp DE_K          &kp DE_X        &kp DE_B     &kp DE_M              &kp DE_W       &kp DE_V             &kp DE_Y            &kp DE_O_UMLAUT
-                                                        &lt 2 TAB              &kp SPACE         &lt 1 ESCAPE    &lt 1 ENTER  &kp BACKSPACE         &lt 2 DELETE
+                                                        &lt 3 TAB              &kp SPACE         &lt 1 ESCAPE    &lt 1 ENTER  &kp BACKSPACE         &lt 3 DELETE
             >;
         };
 
@@ -86,10 +86,10 @@
 
         nav-and-numblock {
             bindings = <
-       &none  &kp N7  &kp N8  &kp N9  &none     &none  &none     &kp UP    &none      &none
-       &none  &kp N4  &kp N5  &kp N6  &kp N0    &none  &kp LEFT  &kp DOWN  &kp RIGHT  &none
-&none  &none  &kp N1  &kp N2  &kp N3  &none     &none  &none     &none     &none      &none  &none
-                      &none   &none   &none     &none  &none     &none
+       &none  &kp N7  &kp N8  &kp N9  &none            &none           &none     &kp UP    &none      &none
+       &none  &kp N4  &kp N5  &kp N6  &kp N0           &none           &kp LEFT  &kp DOWN  &kp RIGHT  &none
+&none  &none  &kp N1  &kp N2  &kp N3  &none            &none           &none     &none     &none      &none  &none
+                      &trans  &trans  &kp LEFT_META    &kp RIGHT_META  &trans    &trans
             >;
         };
 
