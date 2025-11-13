@@ -34,8 +34,8 @@
     combos {
         compatible = "zmk,combos";
 
-        activate-arrow-keys {
-            bindings = <&mo 2>;
+        activate-mouse {
+            bindings = <&mo 3>;
             key-positions = <13 12 11>;
             layers = <0>;
         };
