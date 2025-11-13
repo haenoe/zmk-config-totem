@@ -68,9 +68,9 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                 &kp DE_A_UMLAUT    &kp COMMA           &kp DOT                &kp P             &kp DE_Y     &kp DE_F   &kp DE_G              &kp DE_C       &kp DE_R             &kp DE_L
-                 &mt LEFT_ALT DE_A  &mt LEFT_META DE_O  &mt LEFT_CONTROL DE_E  &mt LEFT_SHIFT U  &kp I        &kp DE_D   &mt RIGHT_SHIFT DE_H  &mt RALT DE_T  &mt RIGHT_META DE_N  &mt RIGHT_ALT DE_S
-&kp DE_U_UMLAUT  &kp DE_SHARP_S     &kp DE_Q            &kp DE_J               &kp DE_K          &kp DE_X     &kp DE_B   &kp DE_M              &kp DE_W       &kp DE_V             &kp DE_Z            &kp DE_O_UMLAUT
+                 &kp DE_A_UMLAUT    &kp COMMA           &kp DOT                &kp P             &kp DE_Y     &kp DE_F   &kp DE_G              &kp DE_C                &kp DE_R             &kp DE_L
+                 &mt LEFT_ALT DE_A  &mt LEFT_META DE_O  &mt LEFT_CONTROL DE_E  &mt LEFT_SHIFT U  &kp I        &kp DE_D   &mt RIGHT_SHIFT DE_H  &mt RIGHT_CONTROL DE_T  &mt RIGHT_META DE_N  &mt RIGHT_ALT DE_S
+&kp DE_U_UMLAUT  &kp DE_SHARP_S     &kp DE_Q            &kp DE_J               &kp DE_K          &kp DE_X     &kp DE_B   &kp DE_M              &kp DE_W                &kp DE_V             &kp DE_Z            &kp DE_O_UMLAUT
                                                         &lt 3 TAB              &lt 1 ESCAPE      &kp SPACE    &kp ENTER  &lt 1 BACKSPACE       &lt 3 DELETE
             >;
         };
