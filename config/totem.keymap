@@ -95,10 +95,10 @@
 
         mouse-and-bluetooth {
             bindings = <
-        &trans  &trans      &trans  &trans      &trans    &trans  &trans          &mmv MOVE_UP    &trans           &trans
-        &trans  &bt BT_PRV  &trans  &bt BT_NXT  &trans    &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans
-&trans  &trans  &trans      &trans  &trans      &trans    &trans  &trans          &trans          &trans           &trans  &trans
-                            &trans  &mkp LCLK   &trans    &trans  &mkp RCLK       &trans
+        &trans  &trans      &trans  &trans      &trans    &trans     &trans          &mmv MOVE_UP    &trans           &trans
+        &trans  &bt BT_PRV  &trans  &bt BT_NXT  &trans    &trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans
+&trans  &trans  &trans      &trans  &trans      &trans    &trans     &trans          &trans          &trans           &trans  &trans
+                            &trans  &trans      &trans    &mkp RCLK  &mkp LCLK       &trans
             >;
         };
 
