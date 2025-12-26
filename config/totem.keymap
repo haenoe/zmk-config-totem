@@ -41,8 +41,60 @@
         };
 
         activate-numpad {
-            bindings = <&mo 3>;
+            bindings = <&mo 2>;
             key-positions = <16 17 18>;
+        };
+    };
+
+    behaviors {
+        homerow_shift_r: homerow_shift_r {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_SHIFT_R";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            hold-while-undecided;
+            hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 20 21 22 23 24 25 32 33 34>;
+            hold-trigger-on-release;
+        };
+
+        homerow_shift_l: homerow_shift_l {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_SHIFT_L";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            hold-while-undecided;
+            hold-trigger-on-release;
+            hold-trigger-key-positions = <5 6 7 8 9 15 16 17 18 19 26 27 28 29 30 31 35 36 37>;
+        };
+
+        homerow_r: homerow_r {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_R";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            hold-while-undecided;
+            hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 20 21 22 23 24 25 32 33 34>;
+            hold-trigger-on-release;
+            flavor = "tap-preferred";
+        };
+
+        homerow_l: homerow_l {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_L";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            hold-while-undecided;
+            hold-trigger-on-release;
+            flavor = "tap-preferred";
+            hold-trigger-key-positions = <5 6 7 8 9 15 16 17 18 19 26 27 28 29 30 31 35 36 37>;
         };
     };
 
@@ -68,10 +120,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                 &kp DE_A_UMLAUT    &kp COMMA           &kp DOT                &kp DE_P             &kp DE_Y     &kp DE_F         &kp DE_G              &kp DE_C                &kp DE_R             &kp DE_L
-                 &mt LEFT_ALT DE_A  &mt LEFT_META DE_O  &mt LEFT_CONTROL DE_E  &mt LEFT_SHIFT DE_U  &kp I        &kp DE_D         &mt RIGHT_SHIFT DE_H  &mt RIGHT_CONTROL DE_T  &mt RIGHT_META DE_N  &mt RIGHT_ALT DE_S
-&kp DE_U_UMLAUT  &kp DE_SHARP_S     &kp DE_Q            &kp DE_J               &kp DE_K             &kp DE_X     &kp DE_B         &kp DE_M              &kp DE_W                &kp DE_V             &kp DE_Z            &kp DE_O_UMLAUT
-                                                        &lt 4 ESCAPE           &lt 1 DE_SPACE       &lt 3 TAB    &lt 2 BACKSPACE  &lt 1 ENTER           &caps_word
+                 &kp DE_A_UMLAUT           &kp COMMA                  &kp DOT                       &kp DE_P                          &kp DE_Y     &kp DE_F         &kp DE_G                           &kp DE_C                       &kp DE_R                    &kp DE_L
+                 &homerow_l LEFT_ALT DE_A  &homerow_l LEFT_META DE_O  &homerow_l LEFT_CONTROL DE_E  &homerow_shift_l LEFT_SHIFT DE_U  &kp I        &kp DE_D         &homerow_shift_r RIGHT_SHIFT DE_H  &homerow_r RIGHT_CONTROL DE_T  &homerow_r RIGHT_META DE_N  &homerow_r RIGHT_ALT DE_S
+&kp DE_U_UMLAUT  &kp DE_SHARP_S            &kp DE_Q                   &kp DE_J                      &kp DE_K                          &kp DE_X     &kp DE_B         &kp DE_M                           &kp DE_W                       &kp DE_V                    &kp DE_Z                   &kp DE_O_UMLAUT
+                                                                      &lt 4 ESCAPE                  &lt 1 DE_SPACE                    &lt 3 TAB    &lt 2 BACKSPACE  &lt 1 ENTER                        &caps_word
             >;
         };
 
@@ -107,7 +159,7 @@
         &trans  &trans      &trans          &trans      &trans    &trans     &trans          &mmv MOVE_UP    &trans           &trans
         &trans  &bt BT_PRV  &bt BT_CLR_ALL  &bt BT_NXT  &trans    &trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans
 &trans  &trans  &trans      &trans          &trans      &trans    &trans     &trans          &trans          &trans           &trans  &trans
-                            &trans          &trans      &trans    &mkp RCLK  &mkp LCLK       &trans
+                            &trans          &trans      &trans    &mkp LCLK  &mkp RCLK       &trans
             >;
         };
 
