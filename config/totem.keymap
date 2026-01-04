@@ -96,10 +96,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                 &kp DE_A_UMLAUT           &kp COMMA                  &kp DOT                       &kp DE_P                    &kp DE_Y     &kp DE_F     &kp DE_G                     &kp DE_C                       &kp DE_R                    &kp DE_L
-                 &homerow_l LEFT_ALT DE_A  &homerow_l LEFT_META DE_O  &homerow_l LEFT_CONTROL DE_E  &homerow_l LEFT_SHIFT DE_U  &kp I        &kp DE_D     &homerow_r RIGHT_SHIFT DE_H  &homerow_r RIGHT_CONTROL DE_T  &homerow_r RIGHT_META DE_N  &homerow_r RIGHT_ALT DE_S
-&kp DE_U_UMLAUT  &kp DE_SHARP_S            &kp DE_Q                   &kp DE_J                      &kp DE_K                    &kp DE_X     &kp DE_B     &kp DE_M                     &kp DE_W                       &kp DE_V                    &kp DE_Z                   &kp DE_O_UMLAUT
-                                                                      &lt 4 ESCAPE                  &lt 1 DE_SPACE              &lt 3 TAB    &lt 2 ENTER  &lt 1 BACKSPACE              &caps_word
+                 &kp DE_A_UMLAUT           &kp COMMA                  &kp DOT                       &kp DE_P                    &kp DE_Y     &kp DE_F         &kp DE_G                     &kp DE_C                       &kp DE_R                    &kp DE_L
+                 &homerow_l LEFT_ALT DE_A  &homerow_l LEFT_META DE_O  &homerow_l LEFT_CONTROL DE_E  &homerow_l LEFT_SHIFT DE_U  &kp I        &kp DE_D         &homerow_r RIGHT_SHIFT DE_H  &homerow_r RIGHT_CONTROL DE_T  &homerow_r RIGHT_META DE_N  &homerow_r RIGHT_ALT DE_S
+&kp DE_U_UMLAUT  &kp DE_SHARP_S            &kp DE_Q                   &kp DE_J                      &kp DE_K                    &kp DE_X     &kp DE_B         &kp DE_M                     &kp DE_W                       &kp DE_V                    &kp DE_Z                   &kp DE_O_UMLAUT
+                                                                      &lt 4 ESCAPE                  &lt 1 DE_SPACE              &lt 3 TAB    &lt 2 BACKSPACE  &lt 1 ENTER                  &caps_word
             >;
         };
 
